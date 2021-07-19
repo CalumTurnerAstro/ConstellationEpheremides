@@ -112,7 +112,7 @@ for j in range(0,number_Timesteps):
 
 #Add initial orbital parameters
 for j in range(0,number_agents):
-    satellite_Data_cube[0,j,6] = (satellite_Data_cube[0,j,0]-1)*plane_spacing #Right ascension of ascending node
+    satellite_Data_cube[0,j,6] = (satellite_Data_cube[:,j,0]-1)*plane_spacing #Right ascension of ascending node
     satellite_Data_cube[0,j,8] = ((satellite_Data_cube[0,j,1]-1)*satellite_spacing) #Initial true anomolies
 
 
