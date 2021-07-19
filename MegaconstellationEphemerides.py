@@ -66,7 +66,7 @@ e = 0.0 #eccentricity
 
 
 number_agents = int(number_planes * satellites_per_plane) #Number of satellites
-plane_spacing = 360/24 #spacing between orbital planes in degrees
+plane_spacing = 360/number_planes #spacing between orbital planes in degrees
 satellite_spacing = 360/satellites_per_plane #spacings between satellties in a plane in degrees
 omega = 0 #argument of periapsis in degrees (irrelevant in case of circular orbit)
 
