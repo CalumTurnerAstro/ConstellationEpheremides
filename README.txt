@@ -8,7 +8,7 @@ The link above included detailed documentation, but essentially this code create
 INPUT: Design of the constellation and the number of timesteps and temporal resolution required.
 OUTPUT: .zip archive containing a .csv dataset with positions, velocities, and orbital elements of each satelltie at each timestep.
 
-This code requires the AstroPy and Poliastro packaged to run:
+This code requires the AstroPy and Poliastro packages to run:
 
 https://www.astropy.org/
 https://www.poliastro.space/
