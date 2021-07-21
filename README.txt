@@ -1,5 +1,5 @@
 # ConstellationEpheremides
-Python code to create a epheremides (a dataset of positions in orbit) for a mega-constellation of satellites in Low Earth Orbit.
+Python code to create an epheremides (a dataset of positions in orbit) for a mega-constellation of satellites in Low Earth Orbit.
 
 This code was used to create the database hosted at https://ieee-dataport.org/open-access/simulated-megaconstellation-ephemerides
 
